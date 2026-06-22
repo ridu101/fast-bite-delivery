@@ -1,20 +1,16 @@
-// Welcome section with feature cards
+// Feature cards section
 function Content() {
   const features = [
-    { icon: "🚚", title: "Fast Delivery", desc: "Get your food delivered in under 30 minutes." },
-    { icon: "🍔", title: "Fresh Food", desc: "Made with the freshest ingredients every day." },
-    { icon: "💰", title: "Best Price", desc: "Affordable meals without compromising quality." },
+    { icon: "🚚", title: "Fast Delivery", desc: "Quick delivery at your doorstep." },
+    { icon: "🍔", title: "Fresh Food", desc: "Fresh and hygienic food always." },
+    { icon: "💰", title: "Best Price", desc: "Best quality food at affordable price." },
   ];
 
   return (
     <section className="content" id="about">
-      <h2 className="content-title">Welcome to FoodExpress</h2>
-      <p className="content-text">
-        Discover delicious meals delivered straight to your door.
-      </p>
-      <div className="feature-cards">
-        {features.map((f) => (
-          <div className="feature-card" key={f.title}>
+      <div className="features-grid">
+        {features.map((f, i) => (
+          <div className="feature-card" key={i}>
             <div className="feature-icon">{f.icon}</div>
             <h3>{f.title}</h3>
             <p>{f.desc}</p>

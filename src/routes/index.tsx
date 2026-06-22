@@ -4,10 +4,10 @@ import App from "../App";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "FoodExpress - Fast Delivery, Fresh Food" },
-      { name: "description", content: "Order fresh food delivered fast to your doorstep with FoodExpress." },
-      { property: "og:title", content: "FoodExpress - Fast Delivery, Fresh Food" },
-      { property: "og:description", content: "Order fresh food delivered fast to your doorstep with FoodExpress." },
+      { title: "Fooddio - Delicious Food Delivered Fast" },
+      { name: "description", content: "Order delicious meals hot and fresh delivered to your doorstep with Fooddio." },
+      { property: "og:title", content: "Fooddio - Delicious Food Delivered Fast" },
+      { property: "og:description", content: "Order delicious meals hot and fresh delivered to your doorstep with Fooddio." },
     ],
   }),
   component: App,

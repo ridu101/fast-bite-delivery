@@ -1,9 +1,9 @@
 // Root App component - imports and renders all sections
-import Navbar from "./components/Navbar.jsx";
-import Header from "./components/Header.jsx";
-import Content from "./components/Content.jsx";
-import Menu from "./components/Menu.jsx";
-import Footer from "./components/Footer.jsx";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Menu from "./components/Menu";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
